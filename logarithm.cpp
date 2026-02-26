@@ -38,7 +38,7 @@ int main(){
     cout<<"Input the number: ";
     cin>>y;
     if(y<=0){
-        cout<<"Maaf, logaritma hanya dapat dihitung untuk angka positif."<<endl;
+        cout<<"Sowwy, logarithms only works for positife numbews (or atleast I haven't understood it yet :p )"<<endl;
         return 0;
     }
     double b = log(y);
