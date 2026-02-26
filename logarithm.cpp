@@ -18,7 +18,7 @@ double plog(double a) {
 
 // Main log function, using the property of logarithm that log(a) = log(d^m * a/d^m) = m*log(d) + log(a/d^m)
 // A small enough value of 'd' should be good enough for the Taylor Series to estimate.
-double log(double a) {
+double ln(double a) {
     double result;
     float d = 1.2;
     int i = 1;
@@ -33,7 +33,7 @@ double log(double a) {
 
 int main(){
     cout<<"============================"<<endl;
-    cout<<"Natural Logarith Calculator"<<endl;
+    cout<<"Natural Logarithm Calculator"<<endl;
     double y;
     cout<<"Input the number: ";
     cin>>y;
@@ -41,7 +41,7 @@ int main(){
         cout<<"Sowwy, logarithms only works for positife numbews (or atleast I haven't understood it yet :p )"<<endl;
         return 0;
     }
-    double b = log(y);
+    double b = ln(y);
     cout<<"Natural Logarithm of "<<y<<" is: "<<b<<endl;
     cout<<"============================"<<endl;
     return 0;
