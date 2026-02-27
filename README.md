@@ -8,3 +8,6 @@ Here's the contents list of the projects:
 
 Logarithm: Includes the natural log only for now, i'll try to make the base customisable next. 
 Includes declaration of the ln function.
+
+Sine trig: Surprisingly accurate for whole numbers, with a minimal error for rational numbers.
+Includes Factorial function declaration.
