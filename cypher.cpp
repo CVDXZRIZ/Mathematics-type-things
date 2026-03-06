@@ -83,4 +83,5 @@ int main (){
         cout<<"Encrypted/Decrypted text: "<<encrypted<<endl;
     cout<<"======================================"<<endl;
     return 0;
+    }
 }
